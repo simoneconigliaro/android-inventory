@@ -1,7 +1,7 @@
 # Androd Inventory Manager App
 - Inventory manager app made using Room, ViewModel, LiveData, RecyclerView (VMMV).
 ## Description
-- The app keeps track of your inventory. It allows you to add, edit and delete one or the whole list of products.
+- The app keeps track of your inventory. It allows you to add, edit a product and delete one or the whole list of products.
 - You can also sell a product or order more if need it.
 - It includes a list of demo products.
 ## Screenshot
