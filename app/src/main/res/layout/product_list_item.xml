@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/relative_layout_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp">
+
+        <ImageView
+            android:contentDescription="@string/image_product"
+            android:id="@+id/image_view_product_small"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginEnd="8dp"
+            tools:src="@drawable/ic_empty_box"/>
+
+        <TextView
+            android:id="@+id/text_view_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/image_view_product_small"
+            android:layout_toStartOf="@id/text_view_quantity"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            tools:text="Product Name" />
+
+        <TextView
+            android:id="@+id/text_view_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_name"
+            android:layout_toEndOf="@id/image_view_product_small"
+            android:layout_toStartOf="@id/text_view_quantity"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            tools:text="10£" />
+
+        <TextView
+            android:id="@+id/text_view_quantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            tools:text="5" />
+
+        <ImageButton
+            android:contentDescription="@string/sale_button"
+            android:id="@+id/button_sale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_price"
+            android:layout_toEndOf="@id/image_view_product_small"
+            android:src="@drawable/ic_local_grocery_store" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_below="@id/relative_layout_container"
+        android:layout_marginTop="16dp"
+        android:background="@color/divider" />
+
+</RelativeLayout>
