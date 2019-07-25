@@ -5,4 +5,4 @@ Inventory manager app made using Room, ViewModel, LiveData, RecyclerView (VMMV).
 - You can also sell a product or order more if need it.
 - It includes a list of demo products.
 ## Screenshot
-<img src="https://github.com/simoneconigliaro/android-inventory/blob/master/Screenshot_1552250092.png" width="280"/> <img src="https://github.com/simoneconigliaro/android-inventory/blob/master/Screenshot_1552250098.png" width="280"/> <img src="https://github.com/simoneconigliaro/android-inventory/blob/master/Screenshot_1552251039.png" width="280"/>
+<img src="https://github.com/simoneconigliaro/android_inventory/blob/master/Screenshot_1.png" width="280"/> <img src="https://github.com/simoneconigliaro/android-inventory/blob/master/Screenshot_2.png" width="280"/> <img src="https://github.com/simoneconigliaro/android-inventory/blob/master/Screenshot_3.png" width="280"/>
