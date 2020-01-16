@@ -1,5 +1,5 @@
 # Android Inventory Manager App
-Inventory manager app made using Room, ViewModel, LiveData, RecyclerView (VMMV).
+Inventory manager app made using Room, ViewModel, LiveData, MVVM, RecyclerView.
 ## Description
 - The app keeps track of your inventory. It allows you to add, edit a product and delete one or the whole list of products.
 - You can also sell a product or order more if need it.
